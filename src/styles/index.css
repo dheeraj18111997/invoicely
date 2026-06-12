@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    sans-serif;
+  background: #ffffff;
+  color: #1a1a2e;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Shared navbar */
+.navbar {
+  background: #1a237e;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(26, 35, 126, 0.25);
+}
+
+.nav-logo {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  user-select: none;
+}
